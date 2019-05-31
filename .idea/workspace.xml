@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/way.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/way.html" afterDir="false" />
-    </list>
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/way.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="139">
+              <caret line="217" column="11" lean-forward="true" selection-start-line="217" selection-start-column="11" selection-end-line="217" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -123,7 +121,7 @@
       <workItem from="1559193344495" duration="7559000" />
       <workItem from="1559260672196" duration="2021000" />
       <workItem from="1559271897567" duration="3985000" />
-      <workItem from="1559278291598" duration="6830000" />
+      <workItem from="1559278291598" duration="7866000" />
     </task>
     <task id="LOCAL-00001" summary="background-image">
       <created>1559191467469</created>
@@ -419,11 +417,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559290069118</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="background size">
+      <created>1559290239993</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1559290239993</updated>
+    </task>
+    <task id="LOCAL-00044" summary="background size">
+      <created>1559290293706</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1559290293706</updated>
+    </task>
+    <task id="LOCAL-00045" summary="background size">
+      <created>1559291252448</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1559291252448</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23427000" />
+    <option name="totallyTimeSpent" value="24463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +540,8 @@
     <MESSAGE value="歌詞" />
     <MESSAGE value="格式" />
     <MESSAGE value="歌词闪动" />
-    <option name="LAST_COMMIT_MESSAGE" value="歌词闪动" />
+    <MESSAGE value="background size" />
+    <option name="LAST_COMMIT_MESSAGE" value="background size" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -539,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/way.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="139">
+          <caret line="217" column="11" lean-forward="true" selection-start-line="217" selection-start-column="11" selection-end-line="217" selection-end-column="11" />
         </state>
       </provider>
     </entry>
