@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="" />
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/way.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/way.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/way.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="324" column="5" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
+            <state relative-caret-position="230">
+              <caret line="226" column="37" lean-forward="true" selection-start-line="226" selection-start-column="37" selection-end-line="226" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -122,20 +124,7 @@
       <workItem from="1559260672196" duration="2021000" />
       <workItem from="1559271897567" duration="3985000" />
       <workItem from="1559278291598" duration="8539000" />
-    </task>
-    <task id="LOCAL-00001" summary="background-image">
-      <created>1559191467469</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559191467469</updated>
-    </task>
-    <task id="LOCAL-00002" summary="background-size">
-      <created>1559191696176</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1559191696177</updated>
+      <workItem from="1559292095992" duration="240000" />
     </task>
     <task id="LOCAL-00003" summary="background-size">
       <created>1559191790734</created>
@@ -459,11 +448,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559291923860</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="title">
+      <created>1559292190413</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292190413</updated>
+    </task>
+    <task id="LOCAL-00050" summary="title">
+      <created>1559292232442</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292232442</updated>
+    </task>
+    <task id="LOCAL-00051" summary="color">
+      <created>1559292326095</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292326095</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25136000" />
+    <option name="totallyTimeSpent" value="25376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,13 +586,11 @@
     <entry file="file://$PROJECT_DIR$/web/images/鹳雀楼.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/txt/歌词.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/txt/歌词.txt" />
     <entry file="file://$PROJECT_DIR$/web/way.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="324" column="5" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="226" column="37" lean-forward="true" selection-start-line="226" selection-start-column="37" selection-end-line="226" selection-end-column="37" />
         </state>
       </provider>
     </entry>
