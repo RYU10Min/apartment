@@ -13,12 +13,16 @@
             height: 100%;
         }
         @keyframes myfirst {
-            from {opacity: 0}
-            to {opacity:100}
+            0% {opacity: 0}
+            25% {opacity:100}
+            75% {opacity:0}
+            100% {opacity:0}
         }
         @keyframes mysecond {
-            from {opacity: 0}
-            to {opacity:100}
+            0% {opacity: 0}
+            25% {opacity:0}
+            75% {opacity:100}
+            100% {opacity:0}
         }
         p{
             font-size: 20px;
@@ -26,43 +30,47 @@
             color: wheat;
             width: 100%;
             text-align: center;
-            animation: myfirst 2s infinite;
         }
-
+        #a{
+            animation: myfirst 3s infinite;
+        }
+        #b{
+            animation: mysecond 3s infinite;
+        }
     </style>
 </head>
 <body>
 <audio src="./music/痕迹 左live右bs 双声道版.mp3" controls="controls" autoplay="autoplay" loop="loop">
 </audio>
 <h1>痕迹</h1>
-<p>消えぬ、消える</p>
-<p>五月雨の後</p>
-<p>乾かぬ涙の後</p>
-<p>消せぬ、消せぬ</p>
-<p>闇夜に浮かぶ</p>
-<p>いとしき人の影</p>
-<p>夕焼け河原を歩いてる</p>
-<p>君と一緒に笑顔連れて</p>
-<p>今日の晩御飯　何しよう</p>
-<p>小さな　すごく小さな　普通の幸せ</p>
-<p>死んでいった貴方は僕の心に染みて生きた</p>
-<p>他の人を愛しても</p>
-<p>他の人でしかありません</p>
-<p>幾度となく季節またいでも</p>
-<p>本当は離れては消えるのが怖くて</p>
-<p>スミレを見つめ</p>
-<p>この花綺麗</p>
-<p>でもいつかは枯れるのね</p>
-<p>時は夕暮れ</p>
-<p>朱に交わると</p>
-<p>水面に二人残して</p>
-<p>影は影を重ねて</p>
-<p>ひとつになるのを恐れて</p>
-<p>気づくのが遅しと</p>
-<p>水面に一人</p>
-<p>あの日埋めた</p>
-<p>心の種は二十日過ぎ芽吹きました</p>
-<p>姿形違えど変わらぬ愛</p>
-<p>優しい光</p>
+<p id="a">消えぬ、消える</p>
+<p id="b">五月雨の後</p>
+<p id="c">乾かぬ涙の後</p>
+<p id="d">消せぬ、消せぬ</p>
+<p id="e">闇夜に浮かぶ</p>
+<p id="f">いとしき人の影</p>
+<p id="g">夕焼け河原を歩いてる</p>
+<p id="h">君と一緒に笑顔連れて</p>
+<p id="i">今日の晩御飯　何しよう</p>
+<p id="j">小さな　すごく小さな　普通の幸せ</p>
+<p id="k">死んでいった貴方は僕の心に染みて生きた</p>
+<p id="l">他の人を愛しても</p>
+<p id="m">他の人でしかありません</p>
+<p id="n">幾度となく季節またいでも</p>
+<p id="o">本当は離れては消えるのが怖くて</p>
+<p id="p">スミレを見つめ</p>
+<p id="q">この花綺麗</p>
+<p id="r">でもいつかは枯れるのね</p>
+<p id="s">時は夕暮れ</p>
+<p id="t">朱に交わると</p>
+<p id="u">水面に二人残して</p>
+<p id="v">影は影を重ねて</p>
+<p id="w">ひとつになるのを恐れて</p>
+<p id="x">気づくのが遅しと</p>
+<p id="y">水面に一人</p>
+<p id="z">あの日埋めた</p>
+<p id="a1">心の種は二十日過ぎ芽吹きました</p>
+<p id="b1">姿形違えど変わらぬ愛</p>
+<p id="c1">優しい光</p>
 </body>
 </html>
