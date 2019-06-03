@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="p.css">
+      <change afterPath="$PROJECT_DIR$/web/css/p.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/way.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/way.html" afterDir="false" />
     </list>
@@ -16,16 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/p.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/way.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="23">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding>
+                <element signature="n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/web/images/test.html" />
         <option value="$PROJECT_DIR$/web/test.html" />
+        <option value="$PROJECT_DIR$/web/css/p.css" />
         <option value="$PROJECT_DIR$/web/way.html" />
       </list>
     </option>
@@ -68,6 +89,12 @@
               <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
               <item name="apartment" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -86,6 +113,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -126,28 +154,7 @@
       <workItem from="1559271897567" duration="3985000" />
       <workItem from="1559278291598" duration="8539000" />
       <workItem from="1559292095992" duration="272000" />
-      <workItem from="1559550188092" duration="2078000" />
-    </task>
-    <task id="LOCAL-00004" summary="height">
-      <created>1559191848314</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1559191848314</updated>
-    </task>
-    <task id="LOCAL-00005" summary="HTML height">
-      <created>1559191929513</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559191929513</updated>
-    </task>
-    <task id="LOCAL-00006" summary="HTML height">
-      <created>1559192612237</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1559192612237</updated>
+      <workItem from="1559550188092" duration="4333000" />
     </task>
     <task id="LOCAL-00007" summary="！">
       <created>1559192701502</created>
@@ -471,11 +478,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559292354959</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="时长变化">
+      <created>1559552320318</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552320319</updated>
+    </task>
+    <task id="LOCAL-00054" summary="时长变化">
+      <created>1559552450674</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552450674</updated>
+    </task>
+    <task id="LOCAL-00055" summary="时长变化">
+      <created>1559552546366</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552546366</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27486000" />
+    <option name="totallyTimeSpent" value="29741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,7 +516,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -576,7 +603,9 @@
     <MESSAGE value="background size" />
     <MESSAGE value="title" />
     <MESSAGE value="color" />
-    <option name="LAST_COMMIT_MESSAGE" value="color" />
+    <MESSAGE value="时长变化" />
+    <MESSAGE value="p.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="p.css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -590,10 +619,20 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/txt/歌词.txt" />
+    <entry file="file://$PROJECT_DIR$/web/css/p.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/way.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
