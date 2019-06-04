@@ -11,6 +11,18 @@
             height: 100%;
         }
     </style>
+    <script>
+        function audioAutoPlay(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady",function () {
+                audio.play();
+            },false);
+            document.addEventListener('YiXinJSBridgeReady',function () {
+                audio.play();
+            },false);
+        }
+    </script>
 </head>
 <body>
 <audio src="./music/痕迹 左live右bs 双声道版.mp3" controls="controls" autoplay="autoplay" loop="loop">
