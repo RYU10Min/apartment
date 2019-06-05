@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Console/password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/calculate.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/calculate.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Console/password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="115">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -189,21 +187,7 @@
       <workItem from="1559612399316" duration="3875000" />
       <workItem from="1559632161822" duration="1321000" />
       <workItem from="1559701086583" duration="5008000" />
-      <workItem from="1559718916786" duration="5626000" />
-    </task>
-    <task id="LOCAL-00016" summary="color change time">
-      <created>1559199744313</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1559199744313</updated>
-    </task>
-    <task id="LOCAL-00017" summary="opacity 0-100">
-      <created>1559199846513</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1559199846513</updated>
+      <workItem from="1559718916786" duration="5823000" />
     </task>
     <task id="LOCAL-00018" summary="opacity 0-100">
       <created>1559199896146</created>
@@ -534,11 +518,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559725467462</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="弹窗">
+      <created>1559728364191</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1559728364202</updated>
+    </task>
+    <task id="LOCAL-00066" summary="弹窗">
+      <created>1559728408480</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1559728408480</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45665000" />
+    <option name="totallyTimeSpent" value="45862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,10 +548,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="146" width="1400" height="812" extended-state="0" />
-    <editor active="true" />
+    <frame x="130" y="29" width="1400" height="812" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -566,7 +563,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985229" visible="true" weight="0.3580247" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014771" side_tool="true" visible="true" weight="0.3580247" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5014771" side_tool="true" visible="true" weight="0.3580247" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -699,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Console/password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="115">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
