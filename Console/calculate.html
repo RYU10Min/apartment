@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        var price = prompt("请输入单价");//一件的价格
+        var amount = prompt("请输入数量");//总共的数量
+        function toPoint(percent){
+            var str=percent.replace("%","");
+            str= str/100;
+            return str;
+        }
+        price = price*amount;
+        alert("总价格是"+price);
+    </script>
 </head>
 <body>
 
