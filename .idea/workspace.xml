@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="输入再弹窗">
+      <change afterPath="$PROJECT_DIR$/Console/age.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/alert.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Console/password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="299">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Console/age.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -61,6 +71,7 @@
         <option value="$PROJECT_DIR$/Console/alert.html" />
         <option value="$PROJECT_DIR$/Console/calculate.html" />
         <option value="$PROJECT_DIR$/Console/password.html" />
+        <option value="$PROJECT_DIR$/Console/age.html" />
       </list>
     </option>
   </component>
@@ -115,10 +126,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yb018\WebstormProjects\apartment\Console" />
+      <recent name="C:\Users\yb018\WebstormProjects\apartment\Console\js" />
       <recent name="C:\Users\yb018\WebstormProjects\apartment\web" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yb018\WebstormProjects\apartment\web" />
     </key>
   </component>
@@ -157,14 +170,7 @@
       <workItem from="1559701086583" duration="5008000" />
       <workItem from="1559718916786" duration="5823000" />
       <workItem from="1559728596613" duration="185000" />
-      <workItem from="1559787409195" duration="4754000" />
-    </task>
-    <task id="LOCAL-00020" summary="infinite 2s">
-      <created>1559200325769</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1559200325769</updated>
+      <workItem from="1559787409195" duration="5309000" />
     </task>
     <task id="LOCAL-00021" summary="infinite 2s">
       <created>1559203492384</created>
@@ -502,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559812226644</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="输入再弹窗">
+      <created>1559814112521</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1559814112521</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50801000" />
+    <option name="totallyTimeSpent" value="51356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,9 +545,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4960212" visible="true" weight="0.3372093" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49469495" visible="true" weight="0.3372093" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5039788" side_tool="true" visible="true" weight="0.3372093" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50530505" side_tool="true" visible="true" weight="0.3372093" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -585,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="background-image" />
     <MESSAGE value="background-size" />
     <MESSAGE value="height" />
     <MESSAGE value="HTML height" />
@@ -610,7 +622,8 @@
     <MESSAGE value="时长变化" />
     <MESSAGE value="p.css" />
     <MESSAGE value="弹窗" />
-    <option name="LAST_COMMIT_MESSAGE" value="弹窗" />
+    <MESSAGE value="输入再弹窗" />
+    <option name="LAST_COMMIT_MESSAGE" value="输入再弹窗" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -667,8 +680,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Console/password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="299">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Console/age.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
