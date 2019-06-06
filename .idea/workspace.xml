@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/age.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/age.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/Console/age.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -169,14 +170,7 @@
       <workItem from="1559701086583" duration="5008000" />
       <workItem from="1559718916786" duration="5823000" />
       <workItem from="1559728596613" duration="185000" />
-      <workItem from="1559787409195" duration="5564000" />
-    </task>
-    <task id="LOCAL-00022" summary="music">
-      <created>1559203518027</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1559203518027</updated>
+      <workItem from="1559787409195" duration="5865000" />
     </task>
     <task id="LOCAL-00023" summary="music nagare">
       <created>1559204254221</created>
@@ -514,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559814619415</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="判断年龄">
+      <created>1559814715246</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1559814715246</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51611000" />
+    <option name="totallyTimeSpent" value="51912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,10 +531,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="88" width="431" height="812" extended-state="0" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.87792206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -544,9 +545,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.67792207" visible="true" weight="0.3580247" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4955471" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32207793" side_tool="true" visible="true" weight="0.3580247" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50445294" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/Console/age.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
