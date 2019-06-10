@@ -9,17 +9,15 @@
         if(isNaN(count)){
             alert("请不要输入数字以外的内容");
         }
-        else
-        {
-            if (count%2==0){
+        else {
+            if (count % 2 == 0) {
                 totalPrice = count*price*0.75;
             }
-            else{
+            else {
                 totalPrice = count*price*0.75+price*0.25;
             }
-            alert("您消费了"+totalPrice+"元");
+            alert("您消费了" + totalPrice + "元");
         }
-
     </script>
 </head>
 <body>
