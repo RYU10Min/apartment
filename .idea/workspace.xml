@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="判断年龄">
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="判断数字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/age.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/age.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/js/drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/drink.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Console/age.html">
+        <entry file="file://$PROJECT_DIR$/Console/drink.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -62,14 +62,16 @@
         <option value="$PROJECT_DIR$/Console/calculate.html" />
         <option value="$PROJECT_DIR$/Console/password.html" />
         <option value="$PROJECT_DIR$/Console/age.html" />
+        <option value="$PROJECT_DIR$/Console/js/drink.html" />
+        <option value="$PROJECT_DIR$/Console/drink.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="692" />
-    <option name="height" value="812" />
+    <option name="width" value="1618" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -117,12 +119,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yb018\WebstormProjects\apartment\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yb018\WebstormProjects\apartment\Console" />
       <recent name="C:\Users\yb018\WebstormProjects\apartment\Console\js" />
-      <recent name="C:\Users\yb018\WebstormProjects\apartment\web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yb018\WebstormProjects\apartment\web" />
     </key>
   </component>
@@ -162,28 +164,7 @@
       <workItem from="1559718916786" duration="5823000" />
       <workItem from="1559728596613" duration="185000" />
       <workItem from="1559787409195" duration="6185000" />
-      <workItem from="1560134910796" duration="316000" />
-    </task>
-    <task id="LOCAL-00026" summary=" control">
-      <created>1559204513115</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1559204513115</updated>
-    </task>
-    <task id="LOCAL-00027" summary="歌詞">
-      <created>1559271749860</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1559271749861</updated>
-    </task>
-    <task id="LOCAL-00028" summary="歌詞">
-      <created>1559273041389</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1559273041389</updated>
+      <workItem from="1560134910796" duration="3324000" />
     </task>
     <task id="LOCAL-00029" summary="歌詞">
       <created>1559274177024</created>
@@ -507,11 +488,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559815256541</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="判断数字">
+      <created>1560135452561</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1560135452563</updated>
+    </task>
+    <task id="LOCAL-00076" summary="判断数字">
+      <created>1560135727514</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1560135727514</updated>
+    </task>
+    <task id="LOCAL-00077" summary="饮料优惠">
+      <created>1560137647735</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1560137647735</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52548000" />
+    <option name="totallyTimeSpent" value="55556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +525,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="870" extended-state="7" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
@@ -590,8 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="height" />
-    <MESSAGE value="HTML height" />
     <MESSAGE value="！" />
     <MESSAGE value="." />
     <MESSAGE value="color change" />
@@ -615,7 +615,9 @@
     <MESSAGE value="弹窗" />
     <MESSAGE value="输入再弹窗" />
     <MESSAGE value="判断年龄" />
-    <option name="LAST_COMMIT_MESSAGE" value="判断年龄" />
+    <MESSAGE value="判断数字" />
+    <MESSAGE value="饮料优惠" />
+    <option name="LAST_COMMIT_MESSAGE" value="饮料优惠" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -679,8 +681,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Console/age.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="117">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Console/drink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
