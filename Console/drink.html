@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <title>优惠价格计算</title>
     <script>
+        function isInteger(obj) {
+            return obj%1 === 0
+        }
+
         var price = 10,count;
-        count = prompt("一杯"+price+"元，请问您要几杯？");
+        var count = prompt("一杯"+price+"元，请问您要几杯？");
         if(isNaN(count)){
             alert("请不要输入数字以外的内容");
         }
         else {
-            if (count % 2 == 0) {
-                totalPrice = count*price*0.75;
+            if (isInteger(count)) {
+                if (count % 2 == 0) {
+                    totalPrice = count * price * 0.75;
+                } else {
+                    totalPrice = count * price * 0.75 + price * 0.25;
+                }
+                alert("您消费了" + totalPrice + "元");
             }
-            else {
-                totalPrice = count*price*0.75+price*0.25;
+            else{
+                alert("请输入整数！！！");
             }
-            alert("您消费了" + totalPrice + "元");
         }
     </script>
 </head>

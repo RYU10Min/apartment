@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="判断数字">
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/js/drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/drink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/Console/drink.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Console/drink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="207">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,10 +68,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1618" />
-    <option name="height" value="870" />
+    <option name="x" value="498" />
+    <option name="y" value="101" />
+    <option name="width" value="1239" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,21 +164,7 @@
       <workItem from="1559718916786" duration="5823000" />
       <workItem from="1559728596613" duration="185000" />
       <workItem from="1559787409195" duration="6185000" />
-      <workItem from="1560134910796" duration="3324000" />
-    </task>
-    <task id="LOCAL-00029" summary="歌詞">
-      <created>1559274177024</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1559274177024</updated>
-    </task>
-    <task id="LOCAL-00030" summary="歌詞">
-      <created>1559274249500</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1559274249500</updated>
+      <workItem from="1560134910796" duration="5109000" />
     </task>
     <task id="LOCAL-00031" summary="歌詞">
       <created>1559274454640</created>
@@ -509,11 +495,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560137647735</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="判断数字">
+      <created>1560138295238</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1560138295246</updated>
+    </task>
+    <task id="LOCAL-00079" summary="判断数字">
+      <created>1560138777461</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1560138777462</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55556000" />
+    <option name="totallyTimeSpent" value="57341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,10 +525,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <frame x="498" y="101" width="1239" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28331935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -539,10 +539,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49491096" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49491096" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50508904" side_tool="true" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50041914" side_tool="true" visible="true" weight="0.3580247" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.4995809" visible="true" weight="0.3580247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -615,9 +615,9 @@
     <MESSAGE value="弹窗" />
     <MESSAGE value="输入再弹窗" />
     <MESSAGE value="判断年龄" />
-    <MESSAGE value="判断数字" />
     <MESSAGE value="饮料优惠" />
-    <option name="LAST_COMMIT_MESSAGE" value="饮料优惠" />
+    <MESSAGE value="判断数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断数字" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -688,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Console/drink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
