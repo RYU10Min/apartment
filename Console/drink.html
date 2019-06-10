@@ -5,13 +5,13 @@
     <title>优惠价格计算</title>
     <script>
         function isInteger(c) {
-            return c === 0
+            return c%1 === 0
         }
 
         var price = 10,count;
         var count = prompt("一杯"+price+"元，请问您要几杯？");
         if(isNaN(count)){
-            alert("请不要输入数字以外的内容");
+            document.write("请不要输入数字以外的内容");
         }
         else {
             if (isInteger(count)) {
@@ -20,10 +20,10 @@
                 } else {
                     totalPrice = count * price * 0.75 + price * 0.25;
                 }
-                alert("您消费了" + totalPrice + "元");
+                document.write("您消费了" + totalPrice + "元");
             }
             else{
-                alert("请输入整数！！！");
+                document.write("请输入整数！！！");
             }
         }
     </script>
