@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优惠价格计算</title>
+    <script>
+        var price = 10,count;
+        count = prompt("一杯"+price+"元，请问您要几杯？");
+        if(count%2==0){
+            totalPrice = count*price*0.75;
+        }
+        else{
+            totalPrice = count*price*0.75+price*0.25;
+        }
+        alert("您消费了"+totalPrice+"元");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
