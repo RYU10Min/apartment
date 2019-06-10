@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>优惠价格计算</title>
+    <style>
+        body{
+            font-size:50px;
+        }
+    </style>
     <script>
         function isInteger(c) {
             return c%1 === 0
@@ -11,19 +16,19 @@
         var price = 10,count;
         var count = prompt("一杯"+price+"元，请问您要几杯？");
         if(isNaN(count)){
-            document.write("请不要输入数字以外的内容");
+            document.write("请不要输入数字以外的内容。");
         }
         else {
-            if (isInteger(count)) {
+            if (isInteger(count)&&(count >=0 )) {
                 if (count % 2 == 0) {
                     totalPrice = count * price * 0.75;
                 } else {
                     totalPrice = count * price * 0.75 + price * 0.25;
                 }
-                document.write("您消费了" + totalPrice + "元");
+                document.write("您消费了" + totalPrice + "元。");
             }
             else{
-                document.write("请输入整数！！！");
+                document.write("请输入正整数！！！");
             }
         }
     </script>
