@@ -6,21 +6,27 @@
     <script>
         var age;
         age = prompt("请输入年龄");
-        if(age>=18){
-            if(age>=200)
-            {
-                alert("是个神仙了吧");
+        if(isNaN(age)){
+            alert("请输入数字");
+        }
+        else {
+            if(age>=18) {
+
+                if (age >= 200) {
+                    alert("是个神仙了吧");
+                }
+                else {
+                    alert("成年了！！");
+                }
             }
-            else{
-                alert("成年了！！");
+            if (age >= 18) {
+            } else {
+                if (age < 0) {
+                    alert("错误：非正常年龄");
+                } else
+                    alert("青少年。");
             }
-            }
-        if(age<18){
-            if(age<0){
-                alert("错误：非正常年龄");
-            }
-            else
-                alert("青少年。");
+
         }
     </script>
 </head>
