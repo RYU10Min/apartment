@@ -9,20 +9,27 @@
         }
     </style>
     <script>
+        function guess() {
+
+            var guess = prompt("猜猜色子数字。");
+            if (guess == a) {
+                document.write("恭喜你猜对啦！！！");
+            }
+            else if (guess > a) {
+                document.write("哦哦，猜大了~~~");
+            }
+            else {
+                document.write("猜小了啊");
+            }
+        }
         var a = Math.random();
-        a = Math.floor(a * 6)+1;
+        a = Math.floor(a * 6) + 1;
         //document.write(a);
-        document.write("<img src=\"images/"+a+".jpg\"/>");
-        var guess = prompt("猜猜色子数字。");
-        if(guess==a){
-            document.write("\n恭喜你猜对啦！！！");
-        }
-        else if(guess>a){
-            document.write("\n哦哦，猜大了~~~");
-        }
-        else{
-            document.write("\n猜小了啊");
-        }
+        guess();
+        guess();
+        guess();
+        //document.write(a);
+        //document.write("<img src=\"images/" + a + ".jpg\"/>");
     </script>
 </head>
 <body>
