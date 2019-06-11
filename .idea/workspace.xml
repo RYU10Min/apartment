@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="401">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -81,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,21 +173,8 @@
       <workItem from="1559728596613" duration="185000" />
       <workItem from="1559787409195" duration="6185000" />
       <workItem from="1560134910796" duration="8303000" />
-      <workItem from="1560216026645" duration="9079000" />
-    </task>
-    <task id="LOCAL-00042" summary="歌词闪动">
-      <created>1559290069118</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1559290069118</updated>
-    </task>
-    <task id="LOCAL-00043" summary="background size">
-      <created>1559290239993</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1559290239993</updated>
+      <workItem from="1560216026645" duration="9862000" />
+      <workItem from="1560237463767" duration="482000" />
     </task>
     <task id="LOCAL-00044" summary="background size">
       <created>1559290293706</created>
@@ -518,11 +505,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560224122983</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="骰子">
+      <created>1560225518486</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1560225518486</updated>
+    </task>
+    <task id="LOCAL-00092" summary="骰子">
+      <created>1560233516685</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1560233516685</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69614000" />
+    <option name="totallyTimeSpent" value="70879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="401">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
         </state>
       </provider>
     </entry>

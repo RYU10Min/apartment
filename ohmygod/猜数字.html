@@ -5,14 +5,15 @@
     <title>猜数字</title>
     <style>
         body{
-            font-size: 200px;
+            font-size: 40px;
         }
     </style>
-
 </head>
 <body>
-
+<p id="demo"></p>
 </body>
+
+</html>
 <script>
 
     var a = Math.random();
@@ -23,21 +24,21 @@
         }
         var guess = prompt("猜猜色子数字。");
         if (guess==a) {
-            document.write("恭喜你猜对啦！！！");
+            document.getElementById("demo").innerHTML="恭喜你猜对啦！！！";
             bingo = true;
         }
         else if (guess > a) {
-            document.write("哦哦，猜大了~~~");
+            document.getElementById("demo").innerHTML="哦哦，猜大了~~~";
         }
         else {
-            document.write("猜小了啊");
+            document.getElementById("demo").innerHTML="猜小了啊";
         }
     }
     a = Math.floor(a * 6) + 1;
     console.info(a);
     //document.write(a);
-    guess();
-    document.write(a);
+    //document.write(a);
     document.write("<img src=\"images/" + a + ".jpg\"/>");
+    guess();
+    guess();
 </script>
-</html>
