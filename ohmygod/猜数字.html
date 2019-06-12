@@ -30,11 +30,17 @@
             document.getElementById("demo").innerHTML="恭喜你猜对啦！！！"+"<img src=\"images/" + a + ".jpg\"/>";
             bingo = true;
         }
-        else if (guess > a) {
-            document.getElementById("demo").innerHTML="哦哦，猜大了~~~";
+        else if (guess>a&&diff>1) {
+            document.getElementById("demo").innerHTML="哦哦，猜太大了~~~";
         }
-        else {
-            document.getElementById("demo").innerHTML="猜小了啊";
+        else if (guess>a&&diff<=1) {
+            document.getElementById("demo").innerHTML = "哦哦，大一点点~~~";
+        }
+        else if (guess<a&&diff>1) {
+            document.getElementById("demo").innerHTML="哦哦，猜太小了~~~";
+        }
+        else if (guess<a&&diff<=1) {
+            document.getElementById("demo").innerHTML="哦哦，小了一点点~~~";
         }
     }
     a = Math.floor(a * 6) + 1;
