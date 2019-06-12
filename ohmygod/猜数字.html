@@ -10,9 +10,8 @@
     </style>
 </head>
 <body>
-<p id="demo"></p>
+<div id="demo"></div>
 </body>
-
 </html>
 <script>
 
@@ -23,8 +22,12 @@
             return;
         }
         var guess = prompt("猜猜色子数字。");
+        console.info("random===="+a);
+        console.info("guess===="+guess);
+        var diff = Math.abs(a-guess);
+        console.ingo("diff======"+diff);
         if (guess==a) {
-            document.getElementById("demo").innerHTML="恭喜你猜对啦！！！";
+            document.getElementById("demo").innerHTML="恭喜你猜对啦！！！"+"<img src=\"images/" + a + ".jpg\"/>";
             bingo = true;
         }
         else if (guess > a) {
