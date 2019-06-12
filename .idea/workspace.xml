@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="141">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -40,9 +40,13 @@
     <findStrings>
       <find>245</find>
       <find>228</find>
+      <find>a</find>
+      <find>document.getElementById(&quot;demo&quot;).innerHTML</find>
     </findStrings>
     <replaceStrings>
       <replace>245</replace>
+      <replace>random</replace>
+      <replace>str</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -71,8 +75,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-214" />
-    <option name="y" value="191" />
+    <option name="x" value="252" />
+    <option name="y" value="479" />
     <option name="width" value="756" />
     <option name="height" value="550" />
   </component>
@@ -81,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +118,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,21 +179,8 @@
       <workItem from="1560134910796" duration="8303000" />
       <workItem from="1560216026645" duration="9862000" />
       <workItem from="1560237463767" duration="1834000" />
-      <workItem from="1560298761319" duration="3472000" />
-    </task>
-    <task id="LOCAL-00047" summary="background size">
-      <created>1559291512808</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1559291512808</updated>
-    </task>
-    <task id="LOCAL-00048" summary="title">
-      <created>1559291923860</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1559291923860</updated>
+      <workItem from="1560298761319" duration="5820000" />
+      <workItem from="1560330688508" duration="1341000" />
     </task>
     <task id="LOCAL-00049" summary="title">
       <created>1559292190413</created>
@@ -520,11 +511,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560308850536</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="骰子">
+      <created>1560309252729</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1560309252729</updated>
+    </task>
+    <task id="LOCAL-00097" summary="骰子">
+      <created>1560310357452</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1560310357452</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75703000" />
+    <option name="totallyTimeSpent" value="79392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +557,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49491096" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50041914" side_tool="true" visible="true" weight="0.055240795" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50041914" side_tool="true" weight="0.055240795" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4995809" visible="true" weight="0.3580247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -720,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="141">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -18,30 +18,38 @@
     var a = Math.random();
     var bingo = false;
     function guess() {
-        if(bingo){
+        if (bingo) {
             return;
         }
         var guess = prompt("猜猜色子数字。");
-        console.info("random===="+a);
-        console.info("guess===="+guess);
-        var diff = Math.abs(a-guess);
-        console.info("diff======"+diff);
-        if (guess==a) {
-            document.getElementById("demo").innerHTML="恭喜你猜对啦！！！"+"<img src=\"images/" + a + ".jpg\"/>";
+        if(!Number.isInteger(guess/1)||guess>6||guess<1){
+            document.getElementById("demo").innerHTML = "输入有误";
+            return;
+        }
+        console.info("random====" + a);
+        console.info("guess====" + guess);
+        var diff = Math.abs(a - guess);
+        console.info("diff======" + diff);
+        var str;
+        if (guess == a) {
+            str = "恭喜你猜对啦！！！" + "<img src=\"images/" + a + ".jpg\"/>";
             bingo = true;
         }
-        else if (guess>a&&diff>1) {
-            document.getElementById("demo").innerHTML="哦哦，猜太大了~~~";
+        else if (guess > a) {
+            if (diff > 1) {
+                str = "哦哦，猜太大了~~~";
+            } else {
+                str = "哦哦，大一点点~~~";
+            }
+        } else {
+            if (diff > 1) {
+                str = "哦哦，猜太小了~~~";
+            }
+            else{
+                str = "哦哦，小了一点点~~~";
+            }
         }
-        else if (guess>a&&diff<=1) {
-            document.getElementById("demo").innerHTML = "哦哦，大一点点~~~";
-        }
-        else if (guess<a&&diff>1) {
-            document.getElementById("demo").innerHTML="哦哦，猜太小了~~~";
-        }
-        else if (guess<a&&diff<=1) {
-            document.getElementById("demo").innerHTML="哦哦，小了一点点~~~";
-        }
+        document.getElementById("demo").innerHTML = str;
     }
     a = Math.floor(a * 6) + 1;
     console.info(a);
