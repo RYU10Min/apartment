@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohmygod/猜数字.html" beforeDir="false" afterPath="$PROJECT_DIR$/ohmygod/猜数字.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
+        <entry file="file://$PROJECT_DIR$/ohmygod/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            <state relative-caret-position="345">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -71,12 +70,13 @@
         <option value="$PROJECT_DIR$/ohmygod/showmeTheWay.html" />
         <option value="$PROJECT_DIR$/ohmygod/dice.html" />
         <option value="$PROJECT_DIR$/ohmygod/猜数字.html" />
+        <option value="$PROJECT_DIR$/ohmygod/question.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="252" />
-    <option name="y" value="479" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="756" />
     <option name="height" value="550" />
   </component>
@@ -180,21 +180,8 @@
       <workItem from="1560216026645" duration="9862000" />
       <workItem from="1560237463767" duration="1834000" />
       <workItem from="1560298761319" duration="5820000" />
-      <workItem from="1560330688508" duration="1341000" />
-    </task>
-    <task id="LOCAL-00049" summary="title">
-      <created>1559292190413</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1559292190413</updated>
-    </task>
-    <task id="LOCAL-00050" summary="title">
-      <created>1559292232442</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1559292232442</updated>
+      <workItem from="1560330688508" duration="2634000" />
+      <workItem from="1560409669558" duration="520000" />
     </task>
     <task id="LOCAL-00051" summary="color">
       <created>1559292326095</created>
@@ -525,11 +512,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560310357452</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="骰子">
+      <created>1560332144470</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1560332144472</updated>
+    </task>
+    <task id="LOCAL-00099" summary="选项随机组合">
+      <created>1560333312121</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1560333312121</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79392000" />
+    <option name="totallyTimeSpent" value="81205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,9 +543,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21501273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13231552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -608,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="color change" />
     <MESSAGE value="color change time" />
     <MESSAGE value="opacity 0-100" />
     <MESSAGE value="infinite 1s" />
@@ -633,7 +632,8 @@
     <MESSAGE value="判断数字" />
     <MESSAGE value="判断数字 整数" />
     <MESSAGE value="骰子" />
-    <option name="LAST_COMMIT_MESSAGE" value="骰子" />
+    <MESSAGE value="选项随机组合" />
+    <option name="LAST_COMMIT_MESSAGE" value="选项随机组合" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/test.html">
@@ -725,8 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ohmygod/猜数字.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        <state relative-caret-position="463">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ohmygod/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
