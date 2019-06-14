@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数数7</title>
+    <style>
+        html,body{
+            height:100%;
+            text-align:center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body onclick="hello()">
+
+</body>
+<script>
+    var num = 1;
+    function hello(){
+        if(num%7==0) {
+            document.body.innerHTML = "7的倍数";
+        }
+        else{
+        document.body.innerHTML = num;
+        }
+        num += 1;
+    }
+
+</script>
+</html>
