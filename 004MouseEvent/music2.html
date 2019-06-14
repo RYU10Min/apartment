@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放</title>
+    <style>
+        #bgmButton{
+            height:352px;
+            width:352px;
+            background-image: url("images/music.gif");
+        }
+    </style>
+</head>
+<body>
+<audio id="bgm" src="./music/痕迹 左live右bs 双声道版.mp3" preload="auto" autoplay="autoplay"></audio>
+<div id="bgmButton" onclick="control()"></div>
+</body>
+<script>
+    function control(){
+        if(document.getElementById("bgm").paused){
+            document.getElementById("bgm").play();
+            document.getElementById("bgmButton").style.backgroundImage = url("images/music.gif");
+            isPlaying = !isPlaying;
+        }
+        else{
+            document.getElementById("bgm").pause();
+            document.getElementById("bgmButton").style.backgroundImage = url("images/music.gif");
+            isPlaying = !isPlaying;
+        }
+    }
+</script>
+</html>
