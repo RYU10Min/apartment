@@ -19,13 +19,11 @@
     function control(){
         if(document.getElementById("bgm").paused){
             document.getElementById("bgm").play();
-            document.getElementById("bgmButton").style.backgroundImage = url("images/music.gif");
-            isPlaying = !isPlaying;
+            document.getElementById("bgmButton").style.backgroundImage = "url('images/music.gif')";
         }
         else{
             document.getElementById("bgm").pause();
-            document.getElementById("bgmButton").style.backgroundImage = url("images/music.gif");
-            isPlaying = !isPlaying;
+            document.getElementById("bgmButton").style.backgroundImage = "url('images/stoped.gif')";
         }
     }
 </script>

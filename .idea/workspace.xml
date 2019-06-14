@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="放歌">
+    <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004MouseEvent/music2.html" beforeDir="false" afterPath="$PROJECT_DIR$/004MouseEvent/music2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/004MouseEvent/music.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state>
+              <caret selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/004MouseEvent/music2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -78,13 +88,15 @@
         <option value="$PROJECT_DIR$/004MouseEvent/test2.html" />
         <option value="$PROJECT_DIR$/004MouseEvent/数数7.html" />
         <option value="$PROJECT_DIR$/004MouseEvent/music.html" />
+        <option value="$PROJECT_DIR$/004MouseEvent/music2.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="713" />
+    <option name="y" value="40" />
     <option name="width" value="880" />
-    <option name="height" value="852" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -103,6 +115,17 @@
               <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
               <item name="apartment" type="462c0819:PsiDirectoryNode" />
               <item name="001web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
+              <item name="004MouseEvent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
+              <item name="004MouseEvent" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,42 +197,7 @@
       <workItem from="1560298761319" duration="5820000" />
       <workItem from="1560330688508" duration="2634000" />
       <workItem from="1560409669558" duration="1821000" />
-      <workItem from="1560472989465" duration="9449000" />
-    </task>
-    <task id="LOCAL-00061" summary="弹窗">
-      <created>1559721640088</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1559721640089</updated>
-    </task>
-    <task id="LOCAL-00062" summary="弹窗">
-      <created>1559724315213</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1559724315213</updated>
-    </task>
-    <task id="LOCAL-00063" summary="弹窗">
-      <created>1559724334686</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1559724334686</updated>
-    </task>
-    <task id="LOCAL-00064" summary="弹窗">
-      <created>1559725467461</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1559725467462</updated>
-    </task>
-    <task id="LOCAL-00065" summary="弹窗">
-      <created>1559728364191</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1559728364202</updated>
+      <workItem from="1560472989465" duration="11184000" />
     </task>
     <task id="LOCAL-00066" summary="弹窗">
       <created>1559728408480</created>
@@ -519,11 +507,46 @@
       <option name="project" value="LOCAL" />
       <updated>1560484923180</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="放歌">
+      <created>1560496006838</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1560496006839</updated>
+    </task>
+    <task id="LOCAL-00111" summary="放歌">
+      <created>1560497525583</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1560497525583</updated>
+    </task>
+    <task id="LOCAL-00112" summary="放歌">
+      <created>1560497559746</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1560497559746</updated>
+    </task>
+    <task id="LOCAL-00113" summary="放歌">
+      <created>1560497580757</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1560497580757</updated>
+    </task>
+    <task id="LOCAL-00114" summary="放歌">
+      <created>1560497603449</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1560497603450</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91955000" />
+    <option name="totallyTimeSpent" value="93690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,10 +558,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="0" width="880" height="852" extended-state="0" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25059953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13295165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -763,8 +786,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/004MouseEvent/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state>
+          <caret selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004MouseEvent/music2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
