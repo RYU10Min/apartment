@@ -3,8 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>换装游戏</title>
+    <style>
+        #clothes{
+            width:350px;
+            height:350px;
+            background-image: url('images/dressup/棕色外挂(已去底).png');
+        }
+        div{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
-
+<div id="menu">
+    <div id="brown" onclick="brown()">棕色外挂</div>
+    <div id="purple" onclick="purple()">紫色中长裙</div>
+    <div id="red" onclick="red()">红裙子</div>
+    <div id="green" onclick="green()">绿上衣</div>
+    <div id="blue" onclick="blue()">蓝色牛仔</div>
+    <div id="yellow" onclick="yellow()">黄色帽子</div>
+</div>
+<div id="clothes"></div>
 </body>
+<script>
+    function brown(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/棕色外挂(已去底).png')";
+    }
+    function purple(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/紫色中长裙(已去底).png')";
+    }
+    function red(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/红裙子(已去底).png')";
+    }
+    function green(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/绿上衣(已去底).png')";
+    }
+    function blue(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/蓝色牛仔(已去底).png')";
+    }
+    function yellow(){
+        document.getElementById("clothes").style.backgroundImage= "url('images/dressup/黄色帽子(已去底).png')";
+    }
+</script>
 </html>
