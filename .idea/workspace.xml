@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb631283-9d6f-4f69-b83f-7f22eb490f2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/004MouseEvent/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/004MouseEvent/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/004MouseEvent/数数7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -82,12 +90,14 @@
         <option value="$PROJECT_DIR$/ohmygod/猜数字.html" />
         <option value="$PROJECT_DIR$/ohmygod/question.html" />
         <option value="$PROJECT_DIR$/004MouseEvent/test.html" />
+        <option value="$PROJECT_DIR$/004MouseEvent/test2.html" />
+        <option value="$PROJECT_DIR$/004MouseEvent/数数7.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="752" />
-    <option name="y" value="141" />
+    <option name="x" value="780" />
+    <option name="y" value="207" />
     <option name="width" value="756" />
     <option name="height" value="550" />
   </component>
@@ -107,7 +117,13 @@
             <path>
               <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
               <item name="apartment" type="462c0819:PsiDirectoryNode" />
-              <item name="004MouseEvent" type="462c0819:PsiDirectoryNode" />
+              <item name="001web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apartment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
+              <item name="001web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,21 +193,7 @@
       <workItem from="1560298761319" duration="5820000" />
       <workItem from="1560330688508" duration="2634000" />
       <workItem from="1560409669558" duration="1821000" />
-      <workItem from="1560472989465" duration="836000" />
-    </task>
-    <task id="LOCAL-00053" summary="时长变化">
-      <created>1559552320318</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1559552320319</updated>
-    </task>
-    <task id="LOCAL-00054" summary="时长变化">
-      <created>1559552450674</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1559552450674</updated>
+      <workItem from="1560472989465" duration="5289000" />
     </task>
     <task id="LOCAL-00055" summary="时长变化">
       <created>1559552546366</created>
@@ -522,11 +524,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560410288688</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="鼠标事件">
+      <created>1560473967948</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1560473967948</updated>
+    </task>
+    <task id="LOCAL-00103" summary="鼠标事件">
+      <created>1560481147565</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1560481147565</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83342000" />
+    <option name="totallyTimeSpent" value="87795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,10 +554,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="141" width="756" height="550" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21830986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25318065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -605,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="color change time" />
     <MESSAGE value="opacity 0-100" />
     <MESSAGE value="infinite 1s" />
     <MESSAGE value="infinite 2s" />
@@ -630,7 +644,8 @@
     <MESSAGE value="判断数字 整数" />
     <MESSAGE value="骰子" />
     <MESSAGE value="选项随机组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="选项随机组合" />
+    <MESSAGE value="鼠标事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="鼠标事件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/001web/test.html">
@@ -736,8 +751,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/004MouseEvent/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004MouseEvent/数数7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
