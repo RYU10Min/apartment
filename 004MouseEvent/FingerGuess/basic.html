@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>锤子剪刀布</title>
+</head>
+<body onload="go()">
+
+</body>
+<script>
+    function go(){
+        var r = 3*Math.random();
+        if(r<1){
+            document.body.innerHTML="<img src='images/石头.png'>";
+        }
+        else if(r<2){
+            document.body.innerHTML="<img src='images/剪刀.png'>";
+        }
+        else{
+            document.body.innerHTML="<img src='images/布.png'>";
+        }
+    }
+</script>
+</html>
