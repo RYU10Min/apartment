@@ -60,20 +60,20 @@
     function rock(){
         document.getElementById("myChoice").innerHTML = "<img src=\'images/石头.png\'/>";
         var computerResult = computerChoice();
-        judge("石头",computerResult);
+        judge("rock",computerResult);
     }
     function scissors(){
             document.getElementById("myChoice").innerHTML = "<img src=\'images/剪刀.png\'/>";
             var computerResult = computerChoice();
-            judge("剪刀",computerResult);
+            judge("scissors",computerResult);
         }
     function paper(){
             document.getElementById("myChoice").innerHTML = "<img src=\"images/布.png\"/>";
             var computerResult = computerChoice();
-            judge("布",computerResult);
+            judge("paper",computerResult);
         }
     function judge(myChoice ,computerResult){
-            if(myChoice=="石头"){
+            if(myChoice=="rock"){
                 if (computerResult=="rock") {
                     document.getElementById("rock").innerHTML = "输啦";
                 }
@@ -84,7 +84,7 @@
                     document.getElementById("paper").innerHTML = "输啦";
                 }
             }
-            else if(myChoice=="剪刀"){
+            else if(myChoice=="scissors"){
                 if (computerResult=="rock") {
                     document.getElementById("rock").innerHTML = "输啦";
                 }
@@ -120,7 +120,7 @@
                 return "scissors";
             }
             else{
-                document.getElementById("computerChoice").innerHTML = "<img src='images/石头.png'>";
+                document.getElementById("computerChoice").innerHTML = "<img src='images/布.png'>";
                 return "paper";
             }
     }
