@@ -72,7 +72,7 @@
             var computerResult = computerChoice();
             judge("布",computerResult);
         }
-    function judge(myChoice,computerResult){
+    function judge(myChoice ,computerResult){
             if(myChoice=="石头"){
                 if (computerResult=="rock") {
                     document.getElementById("rock").innerHTML = "输啦";
@@ -80,43 +80,47 @@
                 else if (computerResult=="scissors") {
                     document.getElementById("scissors").innerHTML = "赢了";
                 }
-                else if (computerResult=="paper") {
+                else{
                     document.getElementById("paper").innerHTML = "输啦";
                 }
             }
             else if(myChoice=="剪刀"){
                 if (computerResult=="rock") {
                     document.getElementById("rock").innerHTML = "输啦";
-                } else if (computerResult=="scissors") {
+                }
+                else if (computerResult=="scissors") {
                     document.getElementById("scissors").innerHTML = "平局";
-                } else if (computerResult=="paper") {
+                }
+                else{
                     document.getElementById("paper").innerHTML = "赢了";
                 }
             }
             else{
                 if (computerResult=="rock") {
                     document.getElementById("rock").innerHTML = "赢了";
-                } else if (computerResult=="scissors") {
+                }
+                else if (computerResult=="scissors") {
                     document.getElementById("scissors").innerHTML = "输啦";
-                } else if (computerResult=="paper") {
+                }
+                else{
                     document.getElementById("paper").innerHTML = "平局";
                 }
             }
         }
-        function go() {
-            r = 3 * Math.random();
+        function go(){
+            r =  3*Math.random();
         }
-        function computerChoice() {
-            if (r < 1) {
+        function computerChoice(){
+            if (r < 1){
                 document.getElementById("computerChoice").innerHTML = "<img src='images/石头.png'>";
                 return "rock";
             }
-            else if (r < 2) {
+            else if (r <2){
                 document.getElementById("computerChoice").innerHTML = "<img src='images/剪刀.png'>";
                 return "scissors";
             }
-            else {
-                document.getElementById("computerChoice").innerHTML = "<img src='images/布.png'>";
+            else{
+                document.getElementById("computerChoice").innerHTML = "<img src='images/石头.png'>";
                 return "paper";
             }
     }
