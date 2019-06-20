@@ -3,39 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>一对一猜拳</title>
-    <style>
-        #container{
-            width:364px;
-            height:300px;
-            border:black solid 10px;
-            margin:0 auto;
-        }
-        #container>div{
-            width:182px;
-            height:300px;
-            float:left;
-        }
-        #mine{
-            background-color:lightgreen;
-        }
-        #computer{
-            background-color:lightblue;
-        }
-        #computerChoice>IMG{
-            transform: scaleX(-1);
-        }
-        h1{
-            margin-top:0;
-            text-align:center;
-        }
-        #container>#result{
-            font-size: 20px;
-            width:364px;
-            text-align: center;
-        }
-    </style>
+    <link href="main.css" rel="stylesheet"/>
 </head>
-<body>
+<body onload="go()">
 <div id="container">
     <div id="mine">
         <h1>我的出招</h1>
@@ -52,77 +22,8 @@
             <img src="images/猜拳.gif"/>
         </div>
     </div>
-    <div id="result"></div>
+    <div id="result">猜猜拳</div>
 </div>
 </body>
-<script>
-    var r;
-    function rock(){
-        document.getElementById("myChoice").innerHTML = "<img src=\'images/石头.png\'/>";
-        var computerResult = computerChoice();
-        judge("rock",computerResult);
-    }
-    function scissors(){
-            document.getElementById("myChoice").innerHTML = "<img src=\'images/剪刀.png\'/>";
-            var computerResult = computerChoice();
-            judge("scissors",computerResult);
-        }
-    function paper(){
-            document.getElementById("myChoice").innerHTML = "<img src=\"images/布.png\"/>";
-            var computerResult = computerChoice();
-            judge("paper",computerResult);
-        }
-    function judge(myChoice ,computerResult){
-            if(myChoice=="rock"){
-                if (computerResult=="rock") {
-                    document.getElementById("rock").innerHTML = "输啦";
-                }
-                else if (computerResult=="scissors") {
-                    document.getElementById("scissors").innerHTML = "赢了";
-                }
-                else{
-                    document.getElementById("paper").innerHTML = "输啦";
-                }
-            }
-            else if(myChoice=="scissors"){
-                if (computerResult=="rock") {
-                    document.getElementById("rock").innerHTML = "输啦";
-                }
-                else if (computerResult=="scissors") {
-                    document.getElementById("scissors").innerHTML = "平局";
-                }
-                else{
-                    document.getElementById("paper").innerHTML = "赢了";
-                }
-            }
-            else{
-                if (computerResult=="rock") {
-                    document.getElementById("rock").innerHTML = "赢了";
-                }
-                else if (computerResult=="scissors") {
-                    document.getElementById("scissors").innerHTML = "输啦";
-                }
-                else{
-                    document.getElementById("paper").innerHTML = "平局";
-                }
-            }
-        }
-        function go(){
-            r =  3*Math.random();
-        }
-        function computerChoice(){
-            if (r < 1){
-                document.getElementById("computerChoice").innerHTML = "<img src='images/石头.png'>";
-                return "rock";
-            }
-            else if (r <2){
-                document.getElementById("computerChoice").innerHTML = "<img src='images/剪刀.png'>";
-                return "scissors";
-            }
-            else{
-                document.getElementById("computerChoice").innerHTML = "<img src='images/布.png'>";
-                return "paper";
-            }
-    }
-</script>
+<script src="main.js"></script>
 </html>
